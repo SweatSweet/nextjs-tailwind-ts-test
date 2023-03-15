@@ -21,9 +21,24 @@ export const Extra = (props: Props) => {
         <Image src={IconDot} width={7} alt="IconDot" />
         <span>Status</span>
       </button>
-      <Image src={IconNotification} width={24} alt="IconNotification" />
-      <Image src={IconLibrary} width={24} alt="IconLibrary" />
-      <Image src={IconContact} width={24} alt="IconContact" />
+      <Image
+        src={IconNotification}
+        width={24}
+        alt="IconNotification"
+        className=" cursor-pointer"
+      />
+      <Image
+        src={IconLibrary}
+        width={24}
+        alt="IconLibrary"
+        className=" cursor-pointer"
+      />
+      <Image
+        src={IconContact}
+        width={24}
+        alt="IconContact"
+        className=" cursor-pointer"
+      />
     </div>
   );
 };
