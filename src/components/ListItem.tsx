@@ -10,8 +10,8 @@ interface Props {
 
 export const ListItem = (props: Props) => {
   return (
-    <div className="m-0 pl-[24px] pr-[19.98px] py-[12px] flex items-center justify-between cursor-pointer hover:bg-[black]/[0.1]">
-      <span className="opacity-[0.6] text-[16px]">{props.text}</span>
+    <div className="m-0 pl-[24px] pr-[19.98px] py-3 flex items-center justify-between cursor-pointer hover:bg-[black]/[0.1]">
+      <span className="opacity-[0.6] text-base">{props.text}</span>
       <span className="flex gap-x-[20.17px]">
         <span>{props.number}</span>
         <Image

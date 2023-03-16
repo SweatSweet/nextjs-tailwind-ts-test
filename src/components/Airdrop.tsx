@@ -13,7 +13,7 @@ export const Airdrop = (props: Props) => {
   return (
     <div
       className={cn(
-        "pl-[25px] pr-[8px] w-[110px] h-[28px] rounded-r-[8px] flex items-center justify-between",
+        "pl-[25px] pr-2 w-[110px] h-7 rounded-r-lg flex items-center justify-between",
         props.className,
         {
           "bg-[#3CAA2A]": props.ticked == false,
@@ -22,7 +22,7 @@ export const Airdrop = (props: Props) => {
       )}
     >
       <Image src={IconLoader} alt="IconLoader" width={16} />
-      <span className="uppercase text-[12px] text-white font-semibold">
+      <span className="uppercase text-xs text-white font-semibold">
         {props.text}
       </span>
     </div>

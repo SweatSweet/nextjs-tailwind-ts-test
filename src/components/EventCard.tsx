@@ -24,59 +24,55 @@ export const EventCard = (props: Props) => {
       <div className="absolute left-[50%] translate-x-[-50%] w-[640px] h-[264px] z-0 flex items-center overflow-hidden border">
         <Image src={props.imgNFT} alt={"imgNFT"} width={640} />
       </div>
-      <div className="m-0 py-[24px] shadow-md border border-opacity-[0.1] rounded-[8px] w-100 flex justify-between gap-x-[32px] z-10 bg-[#FFFFFF]/[0.8] backdrop-blur-[24px]">
+      <div className="m-0 py-[24px] shadow-md border border-opacity-[0.1] rounded-lg w-100 flex justify-between gap-x-[32px] z-10 bg-[#FFFFFF]/[0.8] backdrop-blur-[24px]">
         <div className="flex-auto">
-          <div className="p-0 m-0 flex items-center justify-start gap-x-[8px]">
+          <div className="p-0 m-0 flex items-center justify-start gap-x-2">
             <Airdrop text="Airdrop" ticked={props.ticked} />
             <Schedule text={props.schedule} />
             <Timing status={"Started"} time={"2022-09-13 08:57:15"} />
           </div>
           <div className="px-[24px] pt-[13px] m-0">
-            <h4 className="text-[16px] pb-1">{props.caption}</h4>
-            <div className="flex gap-x-[10px] items-center justify-start pb-[12px]">
-              <span className="text-[30px] p-0 font-semibold">
-                {props.title}
-              </span>
+            <h4 className="text-base pb-1">{props.caption}</h4>
+            <div className="flex gap-x-2.5 items-center justify-start pb-3">
+              <span className="text-3xl p-0 font-semibold">{props.title}</span>
               <div className="flex gap-x-[5px] items-end justify-start">
                 <span className="text-[10px]">x</span>
-                <span className="text-[14px]">{props.amount}</span>
+                <span className="text-sm">{props.amount}</span>
               </div>
             </div>
-            <div className="flex items-center justify-start gap-x-[16px]  pb-[12px]">
-              <span className="text-[14px]">Wallet Transactions:</span>
+            <div className="flex items-center justify-start gap-x-4  pb-3">
+              <span className="text-sm">Wallet Transactions:</span>
               <div className="flex items-center justify-between gap-x-1">
-                <span className="text-[14px] font-bold">{props.sucess}</span>
-                <span className="text-[14px]">Success</span>
+                <span className="text-sm font-bold">{props.sucess}</span>
+                <span className="text-sm">Success</span>
               </div>
               <div className="flex items-center justify-between gap-x-1">
-                <span className="text-[14px] font-bold">
-                  {props.processing}
-                </span>
-                <span className="text-[14px]">Processing</span>
+                <span className="text-sm font-bold">{props.processing}</span>
+                <span className="text-sm">Processing</span>
               </div>
               <div className="flex items-center justify-between gap-x-1">
-                <span className="text-[14px] font-bold">{props.failed}</span>
+                <span className="text-sm font-bold">{props.failed}</span>
                 <span>Failed</span>
               </div>
             </div>
-            <div className="w-100 h-[16px] bg-black bg-opacity-[0.1] border rounded-[8px]">
+            <div className="w-100 h-4 bg-black bg-opacity-[0.1] border rounded-lg">
               <div
                 style={{ width: props.processed }}
                 className={cn(
-                  "h-[16px] gradient-processing bg-opacity-[0.1] border rounded-[8px]"
+                  "h-4 gradient-processing bg-opacity-[0.1] border rounded-lg"
                 )}
               ></div>
             </div>
-            <div className="flex items-center justify-start gap-x-[8px]  mt-[16px] ">
-              <button className="bg-black rounded-[8px] text-white text-[16px] font-semibold p-[16px] w-[126px] h-[40px] flex items-center justify-center">
+            <div className="flex items-center justify-start gap-x-2  mt-4 ">
+              <button className="bg-black rounded-lg text-white text-base font-semibold p-4 w-[126px] h-10 flex items-center justify-center">
                 More Details
               </button>
               {!props.ticked && (
                 <>
-                  <button className="bg-white border border-black rounded-[8px] text-black text-[16px] p-[16px] w-[126px] h-[40px] flex items-center justify-center">
+                  <button className="bg-white border border-black rounded-lg text-black text-base p-4 w-[126px] h-10 flex items-center justify-center">
                     Cancel
                   </button>
-                  <span className="flex gap-x-[8px] text-[16px] px-[8px]">
+                  <span className="flex gap-x-2 text-base px-2">
                     <input type="checkbox" className="accent-black" />
                     Receive report on email
                   </span>

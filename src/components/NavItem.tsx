@@ -11,7 +11,7 @@ export const NavItem = (props: Props) => {
   return (
     <button className={cn("my-1.5")}>
       <span
-        className={cn("text-[16px]", {
+        className={cn("text-base", {
           "opacity-[0.6]": props.selected == false,
           "font-semibold": props.selected == true,
         })}
@@ -24,7 +24,7 @@ export const NavItem = (props: Props) => {
         </div>
       )}
       {props.coming && (
-        <div className="absolute text-[#FF4800] text-[12px]">Coming soon</div>
+        <div className="absolute text-[#FF4800] text-xs">Coming soon</div>
       )}
     </button>
   );

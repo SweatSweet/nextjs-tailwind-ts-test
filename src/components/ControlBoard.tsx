@@ -17,7 +17,7 @@ export const ControlBoard = (props: Props) => {
   return (
     <div
       className={cn(
-        "flex items-center justify-between gap-x-[16px] w-100",
+        "flex items-center justify-between gap-x-4 w-100",
         props.className
       )}
     >

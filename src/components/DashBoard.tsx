@@ -9,9 +9,7 @@ export const DashBoard = () => {
   return (
     <div className="m-0 p-[24px] flex gap-x-[24px]">
       <div className="flex-[1092]">
-        <h2 className="text-[24px] font-semibold opacity-[0.5]  mb-[8px]">
-          Events
-        </h2>
+        <h2 className="text-2xl font-semibold opacity-[0.5]  mb-2">Events</h2>
         <div className="flex flex-col gap-y-[24px] w-100">
           <EventCard
             ticked={false}
@@ -40,9 +38,7 @@ export const DashBoard = () => {
         </div>
       </div>
       <div className="flex-[348]">
-        <h2 className="text-[24px] font-semibold opacity-[0.5] mb-[8px]">
-          Overview
-        </h2>
+        <h2 className="text-2xl font-semibold opacity-[0.5] mb-2">Overview</h2>
         <div className="flex flex-col gap-y-[24px]">
           <List>
             <ListItem text="Wallet balance" number="0.489 ETH" />

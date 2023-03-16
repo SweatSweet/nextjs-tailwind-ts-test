@@ -15,7 +15,7 @@ export const NavBar = (props: Props) => {
         src={LogoDutch}
         alt="Logo Dutch"
         width={145.31}
-        className="p-0 m-0 h-[36px] cursor-pointer"
+        className="p-0 m-0 h-9 cursor-pointer"
       ></Image>
       <div className="px-[32px] grid grid-rows-1 grid-flow-col gap-x-[32px]">
         <NavItem text="Dashboard" selected={true} />
