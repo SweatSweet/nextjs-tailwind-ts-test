@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import IconGt from "@/images/IconGt.svg";
+import IconGt from "@/images/IconGT.svg";
 
 interface Props {
   className?: string;

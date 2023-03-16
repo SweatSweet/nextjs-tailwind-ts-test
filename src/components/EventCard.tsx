@@ -37,7 +37,7 @@ export const EventCard = (props: Props) => {
               <span className="text-[30px] p-0 font-semibold">
                 {props.title}
               </span>
-              <div className="flex gap-x-[5px] items-center justify-start">
+              <div className="flex gap-x-[5px] items-end justify-start">
                 <span className="text-[10px]">x</span>
                 <span className="text-[14px]">{props.amount}</span>
               </div>
@@ -45,21 +45,17 @@ export const EventCard = (props: Props) => {
             <div className="flex items-center justify-start gap-x-[16px]  pb-[12px]">
               <span className="text-[14px]">Wallet Transactions:</span>
               <div className="flex items-center justify-between gap-x-[4px]">
-                <span className="text-[14px] font-semibold">
-                  {props.sucess}
-                </span>
+                <span className="text-[14px] font-bold">{props.sucess}</span>
                 <span className="text-[14px]">Success</span>
               </div>
               <div className="flex items-center justify-between gap-x-[4px]">
-                <span className="text-[14px] font-semibold">
+                <span className="text-[14px] font-bold">
                   {props.processing}
                 </span>
                 <span className="text-[14px]">Processing</span>
               </div>
               <div className="flex items-center justify-between gap-x-[4px]">
-                <span className="text-[14px] font-semibold">
-                  {props.failed}
-                </span>
+                <span className="text-[14px] font-bold">{props.failed}</span>
                 <span>Failed</span>
               </div>
             </div>
