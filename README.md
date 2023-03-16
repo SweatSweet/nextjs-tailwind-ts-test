@@ -1,6 +1,6 @@
 ## Deployed on Vercel
   - Click here to visit the site \
-  https://vercel.com/mathrewtervo/nextjs-tailwind-ts-test/Ep5nMGh5HHS9qJUPWqcuR24CtkMS
+  https://nextjs-tailwind-ts-test-git-main-mathrewtervo.vercel.app/
 ## Getting Started
 
 First, run the development server:
