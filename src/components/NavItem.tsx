@@ -9,7 +9,7 @@ interface Props {
 
 export const NavItem = (props: Props) => {
   return (
-    <button className={cn("my-[6px] hover:bg-[#000000]/[0.1]")}>
+    <button className={cn("my-1.5")}>
       <span
         className={cn("text-[16px]", {
           "opacity-[0.6]": props.selected == false,

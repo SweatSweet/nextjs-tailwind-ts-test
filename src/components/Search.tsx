@@ -12,7 +12,7 @@ export const Search = (props: Props) => {
   return (
     <div
       className={cn(
-        "m-0 p-[6px]  border border-opacity-[0.2] rounded-[8px] flex items-center gap-x-[10px] group",
+        "m-0 p-1.5  border border-opacity-[0.2] rounded-[8px] flex items-center gap-x-[10px] group",
         props.className
       )}
     >
