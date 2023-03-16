@@ -17,27 +17,32 @@ export const Extra = (props: Props) => {
       className={`p-0 m-0 flex items-center justify-end gap-x-8 ${props.className}`}
     >
       <Search className="flex-auto" />
-      <button className="flex items-center justify-around rounded-sm uppercase px-2 gap-x-1 text-xs w-[71px] h-[26px] text-[#3CAA2A] bg-[#3CAA2A] bg-opacity-[20%]">
-        <Image src={IconDot} width={7} alt="IconDot" />
+      <button className="flex items-center justify-around rounded-sm uppercase px-2 gap-x-1 text-xs w-[71px] h-[26px] text-[#3CAA2A] bg-[#3CAA2A] bg-opacity-20">
+        <Image
+          className="cursor-pointer hover:opacity-50"
+          src={IconDot}
+          width={7}
+          alt="IconDot"
+        />
         <span>Status</span>
       </button>
       <Image
+        className="cursor-pointer hover:opacity-50"
         src={IconNotification}
         width={24}
         alt="IconNotification"
-        className=" cursor-pointer"
       />
       <Image
+        className="cursor-pointer hover:opacity-50"
         src={IconLibrary}
         width={24}
         alt="IconLibrary"
-        className=" cursor-pointer"
       />
       <Image
+        className="cursor-pointer hover:opacity-50"
         src={IconContact}
         width={24}
         alt="IconContact"
-        className=" cursor-pointer"
       />
     </div>
   );

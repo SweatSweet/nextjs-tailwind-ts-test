@@ -20,11 +20,11 @@ interface Props {
 
 export const EventCard = (props: Props) => {
   return (
-    <div className="relative bg-[#FFFFFF]/[0.8]">
+    <div className="relative bg-[#FFFFFF]/80">
       <div className="absolute left-[50%] translate-x-[-50%] w-[640px] h-[264px] z-0 flex items-center overflow-hidden border">
         <Image src={props.imgNFT} alt={"imgNFT"} width={640} />
       </div>
-      <div className="m-0 py-6 shadow-md border border-opacity-[0.1] rounded-lg w-100 flex justify-between gap-x-8 z-10 bg-[#FFFFFF]/[0.8] backdrop-blur-[24px]">
+      <div className="m-0 py-6 shadow-md border border-opacity-10 rounded-lg w-100 flex justify-between gap-x-8 z-10 bg-[#FFFFFF]/80 backdrop-blur-[24px]">
         <div className="flex-auto">
           <div className="p-0 m-0 flex items-center justify-start gap-x-2">
             <Airdrop text="Airdrop" ticked={props.ticked} />
@@ -55,11 +55,11 @@ export const EventCard = (props: Props) => {
                 <span>Failed</span>
               </div>
             </div>
-            <div className="w-100 h-4 bg-black bg-opacity-[0.1] border rounded-lg">
+            <div className="w-100 h-4 bg-black bg-opacity-10 border rounded-lg">
               <div
                 style={{ width: props.processed }}
                 className={cn(
-                  "h-4 gradient-processing bg-opacity-[0.1] border rounded-lg"
+                  "h-4 gradient-processing bg-opacity-10 border rounded-lg"
                 )}
               ></div>
             </div>

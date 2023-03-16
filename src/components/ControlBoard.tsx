@@ -26,28 +26,28 @@ export const ControlBoard = (props: Props) => {
       </ControlBoardCard>
       <ControlBoardCard
         bgColor="bg-[#F5D72E]"
-        bgOpacity="bg-opacity-[0.2]"
+        bgOpacity="bg-opacity-20"
         caption="Find Holders"
       >
         <Image src={LogoHolders} alt="LogoHolders" width={68.04} />
       </ControlBoardCard>
       <ControlBoardCard
-        bgColor="bg-[#2EC4DA]/[0.2]"
-        bgOpacity="bg-opacity-[0.2]"
+        bgColor="bg-[#2EC4DA]/20"
+        bgOpacity="bg-opacity-20"
         caption="Airdrop"
       >
         <Image src={LogoAirdrop} alt="LogoAirdrop" width={67.29} />
       </ControlBoardCard>
       <ControlBoardCard
         bgColor="bg-[#F5D72E]"
-        bgOpacity="bg-opacity-[0.2]"
+        bgOpacity="bg-opacity-20"
         caption="Trade-in"
       >
         <Image src={LogoTradeIn} alt="LogoTradeIn" width={74.69} />
       </ControlBoardCard>
       <ControlBoardCard
         bgColor="bg-[#EF4FAD]"
-        bgOpacity="bg-opacity-[0.2]"
+        bgOpacity="bg-opacity-20"
         caption="Sales"
       >
         <Image src={LogoSales} alt="LogoSales" width={61.44} />

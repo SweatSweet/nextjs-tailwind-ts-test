@@ -12,7 +12,7 @@ export const NavItem = (props: Props) => {
     <button className={cn("my-1.5")}>
       <span
         className={cn("text-base", {
-          "opacity-[0.6]": props.selected == false,
+          "opacity-60": props.selected == false,
           "font-semibold": props.selected == true,
         })}
       >

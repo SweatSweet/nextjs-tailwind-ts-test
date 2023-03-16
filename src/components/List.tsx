@@ -5,7 +5,7 @@ interface Props {
 
 export const List = (props: Props) => {
   return (
-    <div className="m-0 shadow-md bg-white border border-opacity-[0.1] rounded-lg">
+    <div className="m-0 shadow-md bg-white border border-opacity-10 rounded-lg">
       {props.title && (
         <h3 className="pl-6 pr-[19.98px] font-semibold text-xl py-3 ">
           {props.title}
