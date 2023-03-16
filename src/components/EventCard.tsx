@@ -32,7 +32,7 @@ export const EventCard = (props: Props) => {
             <Timing status={"Started"} time={"2022-09-13 08:57:15"} />
           </div>
           <div className="px-[24px] pt-[13px] m-0">
-            <h4 className="text-[16px] pb-[4px]">{props.caption}</h4>
+            <h4 className="text-[16px] pb-1">{props.caption}</h4>
             <div className="flex gap-x-[10px] items-center justify-start pb-[12px]">
               <span className="text-[30px] p-0 font-semibold">
                 {props.title}
@@ -44,17 +44,17 @@ export const EventCard = (props: Props) => {
             </div>
             <div className="flex items-center justify-start gap-x-[16px]  pb-[12px]">
               <span className="text-[14px]">Wallet Transactions:</span>
-              <div className="flex items-center justify-between gap-x-[4px]">
+              <div className="flex items-center justify-between gap-x-1">
                 <span className="text-[14px] font-bold">{props.sucess}</span>
                 <span className="text-[14px]">Success</span>
               </div>
-              <div className="flex items-center justify-between gap-x-[4px]">
+              <div className="flex items-center justify-between gap-x-1">
                 <span className="text-[14px] font-bold">
                   {props.processing}
                 </span>
                 <span className="text-[14px]">Processing</span>
               </div>
-              <div className="flex items-center justify-between gap-x-[4px]">
+              <div className="flex items-center justify-between gap-x-1">
                 <span className="text-[14px] font-bold">{props.failed}</span>
                 <span>Failed</span>
               </div>

@@ -17,7 +17,7 @@ export const Extra = (props: Props) => {
       className={`p-0 m-0 flex items-center justify-end gap-x-[32px] ${props.className}`}
     >
       <Search className="flex-auto" />
-      <button className="flex items-center justify-around rounded-[4px] uppercase px-[8px] gap-x-[4px] text-[12px] w-[71px] h-[26px] text-[#3CAA2A] bg-[#3CAA2A] bg-opacity-[20%]">
+      <button className="flex items-center justify-around rounded-sm uppercase px-[8px] gap-x-1 text-[12px] w-[71px] h-[26px] text-[#3CAA2A] bg-[#3CAA2A] bg-opacity-[20%]">
         <Image src={IconDot} width={7} alt="IconDot" />
         <span>Status</span>
       </button>
