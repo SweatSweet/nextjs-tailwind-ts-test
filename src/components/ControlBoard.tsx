@@ -3,7 +3,7 @@ import cn from "classnames";
 
 import { ControlBoardCard } from "./ControlBoardCard";
 
-import LogoNFT from "@/images/LogoNFT.svg";
+import LogoNft from "@/images/LogoNft.svg";
 import LogoHolders from "@/images/LogoHolders.svg";
 import LogoAirdrop from "@/images/LogoAirdrop.svg";
 import LogoTradeIn from "@/images/LogoTradeIn.svg";
@@ -22,7 +22,7 @@ export const ControlBoard = (props: Props) => {
       )}
     >
       <ControlBoardCard bgColor="gradient-green" caption="NFT Management">
-        <Image src={LogoNFT} alt="LogoNFT" width={60} height={74} />
+        <Image src={LogoNft} alt="LogoNft" width={60} height={74} />
       </ControlBoardCard>
       <ControlBoardCard
         bgColor="bg-[#F5D72E]"
