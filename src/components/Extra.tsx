@@ -14,7 +14,7 @@ interface Props {
 export const Extra = (props: Props) => {
   return (
     <div
-      className={`p-0 m-0 flex items-center justify-end gap-x-[32px] ${props.className}`}
+      className={`p-0 m-0 flex items-center justify-end gap-x-8 ${props.className}`}
     >
       <Search className="flex-auto" />
       <button className="flex items-center justify-around rounded-sm uppercase px-2 gap-x-1 text-xs w-[71px] h-[26px] text-[#3CAA2A] bg-[#3CAA2A] bg-opacity-[20%]">

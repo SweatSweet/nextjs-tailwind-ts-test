@@ -7,10 +7,10 @@ import NFT2 from "@/images/NFT2.svg";
 
 export const DashBoard = () => {
   return (
-    <div className="m-0 p-[24px] flex gap-x-[24px]">
+    <div className="m-0 p-6 flex gap-x-6">
       <div className="flex-[1092]">
         <h2 className="text-2xl font-semibold opacity-[0.5]  mb-2">Events</h2>
-        <div className="flex flex-col gap-y-[24px] w-100">
+        <div className="flex flex-col gap-y-6 w-100">
           <EventCard
             ticked={false}
             schedule="Harvest"
@@ -39,7 +39,7 @@ export const DashBoard = () => {
       </div>
       <div className="flex-[348]">
         <h2 className="text-2xl font-semibold opacity-[0.5] mb-2">Overview</h2>
-        <div className="flex flex-col gap-y-[24px]">
+        <div className="flex flex-col gap-y-6">
           <List>
             <ListItem text="Wallet balance" number="0.489 ETH" />
           </List>

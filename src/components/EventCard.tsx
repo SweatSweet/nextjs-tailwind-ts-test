@@ -24,14 +24,14 @@ export const EventCard = (props: Props) => {
       <div className="absolute left-[50%] translate-x-[-50%] w-[640px] h-[264px] z-0 flex items-center overflow-hidden border">
         <Image src={props.imgNFT} alt={"imgNFT"} width={640} />
       </div>
-      <div className="m-0 py-[24px] shadow-md border border-opacity-[0.1] rounded-lg w-100 flex justify-between gap-x-[32px] z-10 bg-[#FFFFFF]/[0.8] backdrop-blur-[24px]">
+      <div className="m-0 py-6 shadow-md border border-opacity-[0.1] rounded-lg w-100 flex justify-between gap-x-8 z-10 bg-[#FFFFFF]/[0.8] backdrop-blur-[24px]">
         <div className="flex-auto">
           <div className="p-0 m-0 flex items-center justify-start gap-x-2">
             <Airdrop text="Airdrop" ticked={props.ticked} />
             <Schedule text={props.schedule} />
             <Timing status={"Started"} time={"2022-09-13 08:57:15"} />
           </div>
-          <div className="px-[24px] pt-[13px] m-0">
+          <div className="px-6 pt-[13px] m-0">
             <h4 className="text-base pb-1">{props.caption}</h4>
             <div className="flex gap-x-2.5 items-center justify-start pb-3">
               <span className="text-3xl p-0 font-semibold">{props.title}</span>

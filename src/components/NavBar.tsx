@@ -17,7 +17,7 @@ export const NavBar = (props: Props) => {
         width={145.31}
         className="p-0 m-0 h-9 cursor-pointer"
       ></Image>
-      <div className="px-[32px] grid grid-rows-1 grid-flow-col gap-x-[32px]">
+      <div className="px-8 grid grid-rows-1 grid-flow-col gap-x-8">
         <NavItem text="Dashboard" selected={true} />
         <NavItem text="Create" selected={false} />
         <NavItem text="Marketplace" selected={false} coming={true} />
