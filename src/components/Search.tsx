@@ -25,7 +25,7 @@ export const Search = (props: Props) => {
       <input
         type="text"
         placeholder="Find Holders"
-        className="w-[100%] shrink"
+        className="w-[100%] shrink pl-[5px]"
       />
       <button className="border-[1px] rounded-[2px] border-opacity-[0.2] bg-black bg-opacity-[0.2] flex-none flex items-center justify-center w-[24px] h-[24px] text-[16px]">
         /

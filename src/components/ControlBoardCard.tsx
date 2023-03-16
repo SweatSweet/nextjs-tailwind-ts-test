@@ -10,7 +10,7 @@ interface Props {
 
 export const ControlBoardCard = (props: Props) => {
   return (
-    <div className="flex flex-col items-center gap-y-[8px] flex-auto">
+    <div className="flex flex-col items-center gap-y-[8px] flex-auto cursor-pointer">
       <div
         className={cn(
           "flex items-center justify-center h-[151px] w-[280px] px-auto rounded-[8px]",
